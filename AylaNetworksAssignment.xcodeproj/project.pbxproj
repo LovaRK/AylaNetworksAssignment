@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5224F4166B5BD4A3D1E45A2A /* Pods_AylaNetworksAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3B783864B79DE1FA9779CB /* Pods_AylaNetworksAssignmentTests.framework */; };
+		53E025BDE7FAD0DC33E3FE82 /* Pods_AylaNetworksAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D850834AE976A87F63BE894C /* Pods_AylaNetworksAssignment.framework */; };
+		62955C5F6E6EFE12B326BA04 /* Pods_AylaNetworksAssignment_AylaNetworksAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BD70B5102FD8FFCBB3484F /* Pods_AylaNetworksAssignment_AylaNetworksAssignmentUITests.framework */; };
+		920A1C442B8E38F0002356E0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A1C432B8E38F0002356E0 /* NetworkService.swift */; };
+		920A1C462B8E3943002356E0 /* CountryFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A1C452B8E3943002356E0 /* CountryFact.swift */; };
+		920A1C482B8E3AC5002356E0 /* CountryInfoEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A1C472B8E3AC5002356E0 /* CountryInfoEndpoint.swift */; };
+		920A1C4A2B8E51B1002356E0 /* CountryFactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A1C492B8E51B1002356E0 /* CountryFactTableViewCell.swift */; };
+		920A1C4E2B8F0429002356E0 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A1C4D2B8F0429002356E0 /* Extentions.swift */; };
+		920A1C502B8F048C002356E0 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920A1C4F2B8F048C002356E0 /* AlertView.swift */; };
 		92B6ECBE2B8E2F6700283102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6ECBD2B8E2F6700283102 /* AppDelegate.swift */; };
 		92B6ECC02B8E2F6700283102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6ECBF2B8E2F6700283102 /* SceneDelegate.swift */; };
-		92B6ECC22B8E2F6700283102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6ECC12B8E2F6700283102 /* ViewController.swift */; };
-		92B6ECC52B8E2F6700283102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B6ECC32B8E2F6700283102 /* Main.storyboard */; };
+		92B6ECC22B8E2F6700283102 /* CountryFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6ECC12B8E2F6700283102 /* CountryFactsViewController.swift */; };
 		92B6ECC72B8E2F6900283102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B6ECC62B8E2F6900283102 /* Assets.xcassets */; };
 		92B6ECCA2B8E2F6900283102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B6ECC82B8E2F6900283102 /* LaunchScreen.storyboard */; };
 		92B6ECD52B8E2F6900283102 /* AylaNetworksAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6ECD42B8E2F6900283102 /* AylaNetworksAssignmentTests.swift */; };
 		92B6ECDF2B8E2F6900283102 /* AylaNetworksAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6ECDE2B8E2F6900283102 /* AylaNetworksAssignmentUITests.swift */; };
 		92B6ECE12B8E2F6900283102 /* AylaNetworksAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6ECE02B8E2F6900283102 /* AylaNetworksAssignmentUITestsLaunchTests.swift */; };
+		92B6ECEE2B8E359500283102 /* CountryInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B6ECED2B8E359500283102 /* CountryInfoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22029658A6438D256205861B /* Pods-AylaNetworksAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AylaNetworksAssignment.debug.xcconfig"; path = "Target Support Files/Pods-AylaNetworksAssignment/Pods-AylaNetworksAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		34BD70B5102FD8FFCBB3484F /* Pods_AylaNetworksAssignment_AylaNetworksAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AylaNetworksAssignment_AylaNetworksAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3B783864B79DE1FA9779CB /* Pods_AylaNetworksAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AylaNetworksAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D812030DC524B3229CB446 /* Pods-AylaNetworksAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AylaNetworksAssignment.release.xcconfig"; path = "Target Support Files/Pods-AylaNetworksAssignment/Pods-AylaNetworksAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		920A1C432B8E38F0002356E0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		920A1C452B8E3943002356E0 /* CountryFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFact.swift; sourceTree = "<group>"; };
+		920A1C472B8E3AC5002356E0 /* CountryInfoEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoEndpoint.swift; sourceTree = "<group>"; };
+		920A1C492B8E51B1002356E0 /* CountryFactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFactTableViewCell.swift; sourceTree = "<group>"; };
+		920A1C4D2B8F0429002356E0 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		920A1C4F2B8F048C002356E0 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		92B6ECBA2B8E2F6700283102 /* AylaNetworksAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AylaNetworksAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B6ECBD2B8E2F6700283102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B6ECBF2B8E2F6700283102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		92B6ECC12B8E2F6700283102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92B6ECC42B8E2F6700283102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B6ECC12B8E2F6700283102 /* CountryFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFactsViewController.swift; sourceTree = "<group>"; };
 		92B6ECC62B8E2F6900283102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92B6ECC92B8E2F6900283102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92B6ECCB2B8E2F6900283102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +67,12 @@
 		92B6ECDA2B8E2F6900283102 /* AylaNetworksAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AylaNetworksAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B6ECDE2B8E2F6900283102 /* AylaNetworksAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AylaNetworksAssignmentUITests.swift; sourceTree = "<group>"; };
 		92B6ECE02B8E2F6900283102 /* AylaNetworksAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AylaNetworksAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92B6ECED2B8E359500283102 /* CountryInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoViewModel.swift; sourceTree = "<group>"; };
+		A9D9E69122CF60C629CF41F1 /* Pods-AylaNetworksAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AylaNetworksAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-AylaNetworksAssignmentTests/Pods-AylaNetworksAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F5A5B30A92F51275512B61 /* Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA1880E43CF78BA47BA34CDB /* Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D850834AE976A87F63BE894C /* Pods_AylaNetworksAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AylaNetworksAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC00F784664E25036EEF271 /* Pods-AylaNetworksAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AylaNetworksAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-AylaNetworksAssignmentTests/Pods-AylaNetworksAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E025BDE7FAD0DC33E3FE82 /* Pods_AylaNetworksAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5224F4166B5BD4A3D1E45A2A /* Pods_AylaNetworksAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62955C5F6E6EFE12B326BA04 /* Pods_AylaNetworksAssignment_AylaNetworksAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F702D34A53B69077404C3C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22029658A6438D256205861B /* Pods-AylaNetworksAssignment.debug.xcconfig */,
+				66D812030DC524B3229CB446 /* Pods-AylaNetworksAssignment.release.xcconfig */,
+				C5F5A5B30A92F51275512B61 /* Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.debug.xcconfig */,
+				CA1880E43CF78BA47BA34CDB /* Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.release.xcconfig */,
+				A9D9E69122CF60C629CF41F1 /* Pods-AylaNetworksAssignmentTests.debug.xcconfig */,
+				DCC00F784664E25036EEF271 /* Pods-AylaNetworksAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		920A1C3D2B8E3857002356E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				920A1C452B8E3943002356E0 /* CountryFact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		920A1C3E2B8E385E002356E0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				92B6ECED2B8E359500283102 /* CountryInfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		920A1C3F2B8E3869002356E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92B6ECC12B8E2F6700283102 /* CountryFactsViewController.swift */,
+				920A1C492B8E51B1002356E0 /* CountryFactTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		920A1C402B8E3873002356E0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		920A1C412B8E3889002356E0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				920A1C432B8E38F0002356E0 /* NetworkService.swift */,
+				920A1C472B8E3AC5002356E0 /* CountryInfoEndpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		920A1C422B8E389B002356E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				920A1C4F2B8F048C002356E0 /* AlertView.swift */,
+				920A1C4D2B8F0429002356E0 /* Extentions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		92B6ECB12B8E2F6700283102 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +173,8 @@
 				92B6ECD32B8E2F6900283102 /* AylaNetworksAssignmentTests */,
 				92B6ECDD2B8E2F6900283102 /* AylaNetworksAssignmentUITests */,
 				92B6ECBB2B8E2F6700283102 /* Products */,
+				0F702D34A53B69077404C3C5 /* Pods */,
+				AA64788EA2843E49C443B21C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +191,14 @@
 		92B6ECBC2B8E2F6700283102 /* AylaNetworksAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				920A1C422B8E389B002356E0 /* Utilities */,
+				920A1C412B8E3889002356E0 /* Networking */,
+				920A1C402B8E3873002356E0 /* Services */,
+				920A1C3F2B8E3869002356E0 /* Views */,
+				920A1C3E2B8E385E002356E0 /* ViewModels */,
+				920A1C3D2B8E3857002356E0 /* Models */,
 				92B6ECBD2B8E2F6700283102 /* AppDelegate.swift */,
 				92B6ECBF2B8E2F6700283102 /* SceneDelegate.swift */,
-				92B6ECC12B8E2F6700283102 /* ViewController.swift */,
-				92B6ECC32B8E2F6700283102 /* Main.storyboard */,
 				92B6ECC62B8E2F6900283102 /* Assets.xcassets */,
 				92B6ECC82B8E2F6900283102 /* LaunchScreen.storyboard */,
 				92B6ECCB2B8E2F6900283102 /* Info.plist */,
@@ -127,6 +223,16 @@
 			path = AylaNetworksAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		AA64788EA2843E49C443B21C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D850834AE976A87F63BE894C /* Pods_AylaNetworksAssignment.framework */,
+				34BD70B5102FD8FFCBB3484F /* Pods_AylaNetworksAssignment_AylaNetworksAssignmentUITests.framework */,
+				3D3B783864B79DE1FA9779CB /* Pods_AylaNetworksAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92B6ECE42B8E2F6900283102 /* Build configuration list for PBXNativeTarget "AylaNetworksAssignment" */;
 			buildPhases = (
+				53670BAA32656839F1085BB1 /* [CP] Check Pods Manifest.lock */,
 				92B6ECB62B8E2F6700283102 /* Sources */,
 				92B6ECB72B8E2F6700283102 /* Frameworks */,
 				92B6ECB82B8E2F6700283102 /* Resources */,
+				BFC4236DB0DF7BB1A1FD8C13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92B6ECE72B8E2F6900283102 /* Build configuration list for PBXNativeTarget "AylaNetworksAssignmentTests" */;
 			buildPhases = (
+				B7CFCED2C543E4BE0FB6FB66 /* [CP] Check Pods Manifest.lock */,
 				92B6ECCC2B8E2F6900283102 /* Sources */,
 				92B6ECCD2B8E2F6900283102 /* Frameworks */,
 				92B6ECCE2B8E2F6900283102 /* Resources */,
@@ -169,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92B6ECEA2B8E2F6900283102 /* Build configuration list for PBXNativeTarget "AylaNetworksAssignmentUITests" */;
 			buildPhases = (
+				BD617057AE46CDCA329643F6 /* [CP] Check Pods Manifest.lock */,
 				92B6ECD62B8E2F6900283102 /* Sources */,
 				92B6ECD72B8E2F6900283102 /* Frameworks */,
 				92B6ECD82B8E2F6900283102 /* Resources */,
+				D8CE09354352F8B6141E5EDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +344,6 @@
 			files = (
 				92B6ECCA2B8E2F6900283102 /* LaunchScreen.storyboard in Resources */,
 				92B6ECC72B8E2F6900283102 /* Assets.xcassets in Resources */,
-				92B6ECC52B8E2F6700283102 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +363,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53670BAA32656839F1085BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AylaNetworksAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7CFCED2C543E4BE0FB6FB66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AylaNetworksAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD617057AE46CDCA329643F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC4236DB0DF7BB1A1FD8C13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AylaNetworksAssignment/Pods-AylaNetworksAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AylaNetworksAssignment/Pods-AylaNetworksAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AylaNetworksAssignment/Pods-AylaNetworksAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CE09354352F8B6141E5EDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests/Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92B6ECB62B8E2F6700283102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B6ECC22B8E2F6700283102 /* ViewController.swift in Sources */,
+				920A1C442B8E38F0002356E0 /* NetworkService.swift in Sources */,
+				920A1C482B8E3AC5002356E0 /* CountryInfoEndpoint.swift in Sources */,
+				92B6ECC22B8E2F6700283102 /* CountryFactsViewController.swift in Sources */,
+				920A1C462B8E3943002356E0 /* CountryFact.swift in Sources */,
+				92B6ECEE2B8E359500283102 /* CountryInfoViewModel.swift in Sources */,
+				920A1C502B8F048C002356E0 /* AlertView.swift in Sources */,
 				92B6ECBE2B8E2F6700283102 /* AppDelegate.swift in Sources */,
+				920A1C4A2B8E51B1002356E0 /* CountryFactTableViewCell.swift in Sources */,
 				92B6ECC02B8E2F6700283102 /* SceneDelegate.swift in Sources */,
+				920A1C4E2B8F0429002356E0 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +517,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		92B6ECC32B8E2F6700283102 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92B6ECC42B8E2F6700283102 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92B6ECC82B8E2F6900283102 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +644,7 @@
 		};
 		92B6ECE52B8E2F6900283102 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22029658A6438D256205861B /* Pods-AylaNetworksAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,7 +654,6 @@
 				INFOPLIST_FILE = AylaNetworksAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +671,7 @@
 		};
 		92B6ECE62B8E2F6900283102 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D812030DC524B3229CB446 /* Pods-AylaNetworksAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,7 +681,6 @@
 				INFOPLIST_FILE = AylaNetworksAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,6 +698,7 @@
 		};
 		92B6ECE82B8E2F6900283102 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D9E69122CF60C629CF41F1 /* Pods-AylaNetworksAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +718,7 @@
 		};
 		92B6ECE92B8E2F6900283102 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC00F784664E25036EEF271 /* Pods-AylaNetworksAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +738,7 @@
 		};
 		92B6ECEB2B8E2F6900283102 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F5A5B30A92F51275512B61 /* Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +756,7 @@
 		};
 		92B6ECEC2B8E2F6900283102 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1880E43CF78BA47BA34CDB /* Pods-AylaNetworksAssignment-AylaNetworksAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
