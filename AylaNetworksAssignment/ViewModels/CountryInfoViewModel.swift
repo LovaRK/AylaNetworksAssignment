@@ -12,7 +12,7 @@ import RxCocoa
 class CountryFactsViewModel {
     let title = BehaviorSubject<String>(value: "")
     let facts = BehaviorSubject<[CountryFact]>(value: [])
-    let errorMessage = PublishSubject<String>()  // Add this line
+    let errorMessage = PublishSubject<String>()  
     private let disposeBag = DisposeBag()
     private let networkService: NetworkServiceProtocol
     
@@ -21,7 +21,6 @@ class CountryFactsViewModel {
     }
     
     func fetchCountryFacts() {
-        // Explicitly specify the type of 'T' as 'CountryFactsResponse'
         networkService.request(endpoint: CountryFactsEndpoint())
             .subscribe(onNext: { [weak self] (response: CountryFactsResponse) in
                 self?.title.onNext(response.title)

@@ -35,10 +35,8 @@ class CountryFactsViewController: UIViewController {
         tableView = UITableView(frame: .zero, style: .plain)
         tableView.translatesAutoresizingMaskIntoConstraints = false
         
-        // Add the tableView to the view hierarchy before setting constraints
         view.addSubview(tableView)
 
-        // Now that tableView is part of the view hierarchy, set the constraints
         NSLayoutConstraint.activate([
             tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             tableView.leftAnchor.constraint(equalTo: view.leftAnchor),
@@ -49,7 +47,6 @@ class CountryFactsViewController: UIViewController {
         // Set default row height
         tableView.rowHeight = 100
         
-        // Register the custom cell with the table view
         tableView.register(CountryFactTableViewCell.self, forCellReuseIdentifier: CountryFactTableViewCell.identifier)
     }
 
